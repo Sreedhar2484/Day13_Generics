@@ -14,9 +14,9 @@ public class maximumOfIntegers<T> {
             maximumNumber = num3;
         return maximumNumber;
     }
-    // print maximum of methods
 
     public static void main(String[] args) {
+        System.out.println("The max Number Among Three String numbers is:-\n "+ maximumOfIntegers("sreedhar", "vamshi", "narasappa"));
         System.out.println("The max Number of Three positive numbers is:-\n "+maximumOfIntegers(65, 101, 1));
         System.out.println("The max number of Three Float numbers is:-\n " + maximumOfIntegers(41.9f, 56.8f, 11.7f));
     }
